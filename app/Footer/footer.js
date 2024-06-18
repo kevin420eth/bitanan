@@ -6,7 +6,7 @@ export default function Footer() {
   const current_year = date.getFullYear()
 
   return (
-    <footer class="flex flex-col justify-center items-center w-full pt-12 pb-8">
+    <footer class="flex flex-col justify-center items-center w-full pt-12 pb-4">
 
       <nav>
         <ul class='flex justify-center items-center gap-4 mb-8'>
