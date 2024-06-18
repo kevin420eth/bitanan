@@ -2,7 +2,7 @@ import './page.css'
 
 export default function page() {
     return (
-        <section class='h-screen border-2 border-white flex flex-col justify-center items-center'>
+        <section class='h-screen flex flex-col justify-center items-center'>
             <h1 class='mb-8 text-3xl'>交易USDT</h1>
             <form action="" class="flex flex-col border-2 border-white p-6 gap-8 rounded-md w-1/2">
 
