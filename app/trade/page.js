@@ -73,7 +73,7 @@ export default function Page() {
                     <p className="absolute right-2 bottom-3 text-xs">{buy?(payIsMain ? "USDT" : "TWD"):(payIsMain ? "TWD" : "USDT")}</p>
                 </div>
 
-                <a href="" className='text-center border-2 border-white self-center w-1/2 rounded-md p-4 mt-4 hover:bg-[#e6b832] hover:text-black'>送出訂單</a>
+                <a href="" className='text-center text-xl border-2 border-white self-center w-1/2 rounded-md p-4 mt-4 hover:bg-[#e6b832] hover:text-black'>送出訂單</a>
                 {/* <input type="submit" value="Submit" className="border-2 border-white" /> */}
                 <i className='absolute bottom-8 left-2 text-xs'>* 1 USDT = 32.33 TWD</i>
             </form>
