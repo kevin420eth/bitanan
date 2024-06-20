@@ -1,3 +1,13 @@
 .pay_input_container:focus-within {
     border-color: rgb(209 213 219);
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
