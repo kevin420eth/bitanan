@@ -55,8 +55,8 @@ export default function Page() {
             <form action="" className="relative flex flex-col items-center border-2 border-white p-6 gap-3 rounded-md w-1/2">
 
                 <div className='flex justify-around w-full mb-6'>
-                    <h1 className={buy? "buy_button cursor-pointer text-3xl pb-2 border-b-4": "buy_button cursor-pointer text-3xl"} onClick={()=>handlebuySwitch(true)}>購買</h1>
-                    <h1 className={buy? "buy_button cursor-pointer text-3xl": "buy_button cursor-pointer text-3xl pb-2 border-b-4"} onClick={()=>handlebuySwitch(false)}>販賣</h1>
+                    <h1 className={buy? "buy_button cursor-pointer text-3xl pb-2 border-b-4 border-[#facd37]": "buy_button cursor-pointer text-3xl"} onClick={()=>handlebuySwitch(true)}>購買</h1>
+                    <h1 className={buy? "buy_button cursor-pointer text-3xl": "buy_button cursor-pointer text-3xl pb-2 border-b-4 border-[#facd37]"} onClick={()=>handlebuySwitch(false)}>販賣</h1>
                 </div>
 
                 <div className='relative pay_input_container flex flex-col border-2 border-gray-500 rounded-lg justify-center items-start px-4 py-2 gap-2'>
