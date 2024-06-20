@@ -4,7 +4,7 @@ import './header.css'
 
 export default function Header() {
   return (
-    <header className="fixed w-full flex justify-around items-center bg-black py-2">
+    <header className="fixed w-full flex justify-around items-center bg-black py-2 z-10">
       <a href="" className='flex justify-around	items-center gap-2'>
         <Image src={logo_image} alt='logo_image' height={50} className='rounded-full' />
         <h1 className='text-4xl'>Bitanan</h1>

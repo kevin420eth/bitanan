@@ -1,3 +1,4 @@
+
 .pay_input_container:focus-within {
     border-color: rgb(209 213 219);
 }
@@ -11,3 +12,4 @@ input::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance: textfield;
   }
+
